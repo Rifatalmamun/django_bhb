@@ -5,7 +5,7 @@ from django.http import HttpResponse
 # here is my first django comment
 
 def index(request):
-    diction = {'name':'Rifat al mamun'}
+    diction = {'name':'Rifat al mamun','phone':'01770703320'}
 
     return render(request, 'first_app/index.html', context=diction)
 
